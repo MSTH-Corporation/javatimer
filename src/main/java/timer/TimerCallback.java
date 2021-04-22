@@ -1,4 +1,4 @@
-package msthbot.msthbot.util;
+package timer;
 
 public interface TimerCallback {
 	void callback();

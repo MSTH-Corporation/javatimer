@@ -1,4 +1,4 @@
-package msthbot.msthbot.util;
+package timer;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -24,7 +24,7 @@ public class Timer {
 	public void setCallback(TimerCallback callback) {
 		this.callback=callback;
 	}
-	public void waitSeconds() {
+	public void start() {
 		service=Executors.newSingleThreadScheduledExecutor();
 		service.scheduleAtFixedRate(Timer::thread, 0, this.timeToWait, TimeUnit.SECONDS);
 	}
