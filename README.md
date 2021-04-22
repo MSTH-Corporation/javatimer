@@ -1,8 +1,8 @@
 # javatimer
  
-# Usage
+## Usage
 
-'''
+```
 public class JavaTimerTest {
  public static void main(String args[]) {
   Timer t = new Timer();
@@ -13,8 +13,8 @@ public class JavaTimerTest {
   t.waitSeconds(); //Starts the timer
  } 
 }
-'''
+```
 If you want to stop the timer write:
-'''
+```
 t.stop();
-'''
+```
