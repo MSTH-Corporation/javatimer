@@ -10,7 +10,7 @@ public class JavaTimerTest {
   t.setCallback(() -> {
    System.out.print("Time finished!");
   }); //Sets the function that will run when the time has finished
-  t.waitSeconds(); //Starts the timer
+  t.start(); //Starts the timer
  } 
 }
 ```
