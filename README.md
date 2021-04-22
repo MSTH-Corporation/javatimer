@@ -2,7 +2,7 @@
  
 ## Usage
 
-```
+```java
 public class JavaTimerTest {
  public static void main(String args[]) {
   Timer t = new Timer();
@@ -15,6 +15,6 @@ public class JavaTimerTest {
 }
 ```
 If you want to stop the timer write:
-```
+```java
 t.stop();
 ```
